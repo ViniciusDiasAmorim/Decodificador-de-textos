@@ -147,7 +147,7 @@ div#container-botoes{
     body{
         width: auto;
         height: auto;
-        background-color: aquamarine;
+        background-color: var(--corLightBlue100);
         margin: auto;
     }
    
@@ -195,7 +195,7 @@ div#container-botoes{
 }
 @media screen and (max-width:950px) {
     body{
-        background-color: antiquewhite;
+        background-color: var(--corLightBlue100);
         margin-left: -70px;
     }
     #criptografar-area{
