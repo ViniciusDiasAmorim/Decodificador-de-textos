@@ -41,7 +41,7 @@ textarea::placeholder{
     position: absolute;
     width: 400px;
     min-height: 800px;
-    top: 40px;
+    top: 20px;
     right: 32px;
     margin-top: 40px;
     margin-right: 40px;
@@ -104,7 +104,7 @@ div#container-botoes{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin-top: 690px;
+    margin-top: 680px;
     margin-bottom: 40px;
     }
 #botao-criptografia, #botao-descriptografia, #botao-copiar{
@@ -135,11 +135,12 @@ footer{
     background-color: var(--corDarkBlue300);
     color: white;
     text-align: center;
-    padding: 10px 10px 13px 10px;
-    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 14px;
+    
 }
 .img-rodape{
-        margin-left: 15px;
+    margin-left: 15px;
 }
 .img-rodape:hover{
     background-color: white;
@@ -192,6 +193,12 @@ footer{
             top: 520px;
             left: 164px;
         }
+    footer{
+            margin-top: 205px;
+            padding-bottom: 50px;
+            padding-top: 50px;
+            padding-left: 50px;
+        }
 
 }
 @media screen and (max-width:950px) {
@@ -214,6 +221,7 @@ footer{
         font-size: 32px;
         width: 300px;
         height: 100px;
+        padding: 24px;
     }
     #botao-descriptografia{
         font-size: 32px;
@@ -243,5 +251,26 @@ footer{
         margin-top: 40px;
         font-size: 24px;
     }
+    footer{
+        margin-left: 70px;
+        width: 754px;
+    }
+    footer p {
+        font-size:28px;
+    }
     
+}
+@media screen and (max-width:850px) {
+    footer{
+        width: 820px;
+    }
+}
+@media screen and (max-width:950px) {
+    footer{
+        width: 910px;
+        padding: 70px 2px 90px 0px;
+    }
+    footer p {
+        font-size: 26px;
+    }
 }
