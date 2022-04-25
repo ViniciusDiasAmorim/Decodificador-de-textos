@@ -14,3 +14,5 @@ O programa deve funcionar apenas com letras minusculas e sem acento.
 - A letra "u" é convertida para "ufat";
 
 sendo assim por exemplo a palavra gato deve ser criptografada para gaitober.
+
+#challengeonedecodificador2
